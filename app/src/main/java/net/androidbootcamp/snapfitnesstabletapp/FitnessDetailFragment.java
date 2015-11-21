@@ -61,7 +61,7 @@ public class FitnessDetailFragment extends Fragment {
 
         // Show the dummy content as text in a TextView.
         if (mItem.id.equals("3")) {
-            rootView = inflater.inflate(R.layout.crunch_photos, container, false);
+            rootView = inflater.inflate(R.layout.fitness_photos, container, false);
         }
         if (mItem.id.equals("2")) {
             rootView = inflater.inflate(R.layout.fitness_info, container, false);
