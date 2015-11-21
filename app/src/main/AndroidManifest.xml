@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.androidbootcamp.snapfitnesstabletapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CityDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".CityListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CityListActivity" />
+        </activity>
+        <activity android:name=".CityListActivity"
+            android:label="@string/title_city_fitness">
+        </activity>
+        <activity android:name=".GymMenu"
+            android:label="@string/title_city_fitness">
+        </activity>
+        <activity
+            android:name=".CrunchListActivity"
+            android:label="@string/title_fitness_together"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".CrunchDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".CrunchListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CrunchListActivity" />
+        </activity>
+
+
+        <activity
+            android:name=".VidaListActivity"
+            android:label="@string/title_vida_fitness"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".VidaDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".VidaListActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VidaListActivity" />
+        </activity>
+    </application>
+
+</manifest>

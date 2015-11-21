@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/fitnesstogether1"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fitnesstogether1"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="450sp"
+                android:layout_height="210sp"
+                android:text="@string/txtCrunch1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fitnesstogether2"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fitnesstogether2"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="450sp"
+                android:layout_height="210sp"
+                android:text="@string/txtCrunch2"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fitnesstogether3"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fitnesstogether3"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="450sp"
+                android:layout_height="210sp"
+                android:text="@string/txtCrunch3"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/fitnesstogether4"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fitnesstogether4"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="450sp"
+                android:layout_height="210sp"
+                android:text="@string/txtCrunch4"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgVida1"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vida1"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="600sp"
+                android:layout_height="210sp"
+                android:text="@string/txtVida1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgVida2"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vida2"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="600sp"
+                android:layout_height="210sp"
+                android:text="@string/txtVida2"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgVida3"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vida3"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="600sp"
+                android:layout_height="210sp"
+                android:text="@string/txtVida3"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/imgVida4"
+                android:contentDescription="@string/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vida4"
+                android:padding="15sp" />
+
+            <TextView
+                android:layout_width="600sp"
+                android:layout_height="210sp"
+                android:text="@string/txtVida4"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Snap Fitness Tablet App</string>
+
+    <string name="title_item_detail">Item Detail</string>
+    <string name="txtCity1">Free personal training.</string>
+    <string name="txtCity2">Convenient parking for all members.</string>
+    <string name="txtCity3">Conveniently located in a friendly and safe neighborhood</string>
+    <string name="txtCity4">The fitness center is spacious enough to accommodate members.</string>
+    <string name="txtCityTitle">Membership Fees and Information: </string>
+    <string name="txtCityInfo">Full Use: Our Full Use membership gives you access to the gym any time. This “unlimited” option also includes participation in all classes, as well as three free personal training sessions ($87)
+
+\n\nDay Use: This option is perfect for the “work from home” crowd. Day Use membership hours are 6AM-6PM, Monday through Friday. All classes during these times are included, as well as three free personal training sessions ($80)
+
+\n\nWeekend Membership: Perfect for those who use a fitness center at their work. The Weekend Membership allows access Saturday and Sunday, including all classes held those days. ($60)
+
+\n\nTeen Memberships: This membership is available for teens 13-17 years old. They are allowed access to the gym Monday–Sunday between 2:30–5:30 p.m. Our staff will ensure that they receive an orientation to the weight room with a program designed exclusively for them. ($40)
+
+</string>
+    <string name="txtDescription">City Fitness Image</string>
+
+    <string name="txtCrunch1">Free personal training.</string>
+    <string name="txtCrunch2">Free personal training.</string>
+    <string name="txtCrunch3">Free personal training.</string>
+    <string name="txtCrunch4">Free personal training.</string>
+    <string name="txtCrunchTitle">Free personal training.</string>
+    <string name="txtCrunchInfo">Free personal training.</string>
+
+    <string name="txtVida1">Free personal training.</string>
+    <string name="txtVida2">Free personal training.</string>
+    <string name="txtVida3">Free personal training.</string>
+    <string name="txtVida4">Free personal training.</string>
+    <string name="txtVidaTitle">Free personal training.</string>
+    <string name="txtVidaInfo">Free personal training.</string>
+
+    <string name="title_fitness_together">Fitness Together</string>
+    <string name="title_city_fitness">City Fitness</string>
+    <string name="title_vida_fitness">Vida Fitness</string>
+
+
+
+
+
+
+
+</resources>
