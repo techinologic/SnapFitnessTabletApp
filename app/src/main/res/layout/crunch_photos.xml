@@ -4,7 +4,7 @@
     android:layout_height="wrap_content">
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent" android:layout_height="match_parent"
-        android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme">
 
         <TableRow>
             <ImageView
@@ -18,7 +18,7 @@
             <TextView
                 android:layout_width="450sp"
                 android:layout_height="210sp"
-                android:text="@string/txtCrunch1"
+                android:text="@string/txtFitness1"
                 android:textSize="30sp" />
         </TableRow>
         <TableRow>
@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="450sp"
                 android:layout_height="210sp"
-                android:text="@string/txtCrunch2"
+                android:text="@string/txtFitness2"
                 android:textSize="30sp" />
         </TableRow>
         <TableRow>
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="450sp"
                 android:layout_height="210sp"
-                android:text="@string/txtCrunch3"
+                android:text="@string/txtFitness3"
                 android:textSize="30sp" />
         </TableRow>
         <TableRow>
@@ -63,7 +63,7 @@
             <TextView
                 android:layout_width="450sp"
                 android:layout_height="210sp"
-                android:text="@string/txtCrunch4"
+                android:text="@string/txtFitness4"
                 android:textSize="30sp" />
         </TableRow>
 

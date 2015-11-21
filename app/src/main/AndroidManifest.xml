@@ -33,34 +33,35 @@
             android:label="@string/title_city_fitness">
         </activity>
         <activity android:name=".GymMenu"
-            android:label="@string/title_city_fitness">
+            android:theme="@style/AppTheme"
+            android:label="@string/title_Menu">
+
         </activity>
         <activity
-            android:name=".CrunchListActivity"
+            android:name=".FitnessListActivity"
             android:label="@string/title_fitness_together"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".CrunchDetailActivity"
+            android:name=".FitnessDetailActivity"
             android:label="@string/title_item_detail"
-            android:parentActivityName=".CrunchListActivity"
+            android:parentActivityName=".FitnessListActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CrunchListActivity" />
+                android:value=".FitnessListActivity" />
         </activity>
 
 
         <activity
             android:name=".VidaListActivity"
-            android:label="@string/title_vida_fitness"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="@string/title_vida_fitness">
         </activity>
         <activity
             android:name=".VidaDetailActivity"
             android:label="@string/title_item_detail"
             android:parentActivityName=".VidaListActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".VidaListActivity" />

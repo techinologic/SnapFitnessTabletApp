@@ -26,7 +26,7 @@ public class GymMenu extends ListActivity {
                 startActivity(new Intent(GymMenu.this, CityListActivity.class));
                 break;
             case 1:
-                startActivity(new Intent(GymMenu.this, CrunchListActivity.class));
+                startActivity(new Intent(GymMenu.this, FitnessListActivity.class));
                 break;
             case 2:
                 startActivity(new Intent(GymMenu.this, VidaListActivity.class));

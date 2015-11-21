@@ -18,23 +18,35 @@
 </string>
     <string name="txtDescription">City Fitness Image</string>
 
-    <string name="txtCrunch1">Free personal training.</string>
-    <string name="txtCrunch2">Free personal training.</string>
-    <string name="txtCrunch3">Free personal training.</string>
-    <string name="txtCrunch4">Free personal training.</string>
-    <string name="txtCrunchTitle">Free personal training.</string>
-    <string name="txtCrunchInfo">Free personal training.</string>
+    <string name="txtFitness1">Professional training.</string>
+    <string name="txtFitness2">Fun, and engaging community based fitness activities.</string>
+    <string name="txtFitness3">Cardio and resistance training equipments.</string>
+    <string name="txtFitness4">Convenient location.</string>
+    <string name="txtFitnessTitle">Fitness Together Club and Membership Info.</string>
+    <string name="txtFitnessInfo">Fitness Together is America\'s #1 personal training franchise. Learn more about how you can turn your passion for fitness into your own studio!
+\n\nPersonal Training Call for availability.
+\n\nAddress: 3222 N St NW, Washington, DC 20007
+\n\nPhone:(202) 625-8484
+\n\nHours: Open today · 7:30 AM – 4:30 PM.</string>
 
-    <string name="txtVida1">Free personal training.</string>
-    <string name="txtVida2">Free personal training.</string>
-    <string name="txtVida3">Free personal training.</string>
-    <string name="txtVida4">Free personal training.</string>
-    <string name="txtVidaTitle">Free personal training.</string>
-    <string name="txtVidaInfo">Free personal training.</string>
+    <string name="txtVida1">State of the art facilities and equipments.</string>
+    <string name="txtVida2">Wide a spacious gym indoor fitness facility.</string>
+    <string name="txtVida3">Free professional personal training.</string>
+    <string name="txtVida4">Conveniently located in a upscale downtown environment.</string>
+    <string name="txtVidaTitle">Memebership and Gym Info</string>
+    <string name="txtVidaInfo">Located in: Verizon Center
+\n\nAddress: 601 F St NW,100, Washington, DC 20004-1605
+\n\nPhone:(202) 393-8432
+\n\nHours: Open today · 7:00 AM – 9:00 PM
+        \n\nIndividual Membership:
+\n\nThis single-club membership includes all of the equipment, amenities, and group fitness classes and provides you access to the VIDA Fitness location of your choice. This membership requires a 1-year commitment and then converts to a month-to-month membership.
+</string>
 
     <string name="title_fitness_together">Fitness Together</string>
     <string name="title_city_fitness">City Fitness</string>
     <string name="title_vida_fitness">Vida Fitness</string>
+    <string name="title_Menu">Best of DC Fitness Clubs</string>
+
 
 
 
